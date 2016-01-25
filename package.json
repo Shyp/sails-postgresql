@@ -24,14 +24,16 @@
   "dependencies": {
     "async": "0.9.0",
     "lodash": "2.4.1",
-    "pg": "4.2.0",
+    "pg": "4.3.0",
     "waterline-cursor": "0.0.5",
     "waterline-errors": "0.10.1",
     "waterline-sequel": "git+https://github.com/Shyp/waterline-sequel.git#0.1.1-milliseconds-fix"
   },
   "devDependencies": {
     "captains-log": "0.11.11",
+    "clingwrap": "1.1.0",
     "mocha": "2",
+    "npm": "2",
     "should": "8",
     "waterline-adapter-tests": "git+https://github.com/Shyp/waterline-adapter-tests.git#v1.0.0"
   },

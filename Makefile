@@ -18,3 +18,15 @@ test-load:
 		--reporter $(REPORTER) \
 		$(MOCHA_OPTS) \
 		test/load/**
+
+shrinkwrap:
+	rm -rf node_modules
+	npm cache clear
+	npm install --production
+	npm shrinkwrap
+	npm install --production
+	npm shrinkwrap
+	clingwrap npmbegone
+
+clean: 
+	rm -rf node_modules
