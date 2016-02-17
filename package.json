@@ -1,7 +1,7 @@
 {
   "name": "sails-postgresql",
   "description": "a postgreSQL adapter for Waterline and Sails.js",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Cody Stoltman <particlebanana@gmail.com>",
   "contributors": [
     {
