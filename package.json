@@ -27,7 +27,7 @@
     "pg": "git://github.com/Shyp/node-postgres#timeout",
     "waterline-cursor": "0.0.5",
     "waterline-errors": "0.10.1",
-    "waterline-sequel": "git+https://github.com/Shyp/waterline-sequel.git#0.1.1-milliseconds-fix"
+    "waterline-sequel": "git+https://github.com/Shyp/waterline-sequel.git#v1.0.0"
   },
   "devDependencies": {
     "captains-log": "0.11.11",
