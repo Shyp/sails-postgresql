@@ -1,3 +1,4 @@
+.PHONY: clean install test test-integration test-unit shrinkwrap
 
 MOCHA_OPTS= --check-leaks
 REPORTER = dot
@@ -30,3 +31,6 @@ shrinkwrap:
 
 clean: 
 	rm -rf node_modules
+
+install:
+	npm install

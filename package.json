@@ -24,7 +24,7 @@
   "dependencies": {
     "async": "0.9.0",
     "lodash": "2.4.1",
-    "pg": "git://github.com/Shyp/node-postgres#timeout",
+    "pg": "4.3.0",
     "waterline-cursor": "0.0.5",
     "waterline-errors": "0.10.1",
     "waterline-sequel": "git+https://github.com/Shyp/waterline-sequel.git#0.1.1-milliseconds-fix"

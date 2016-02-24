@@ -9,15 +9,13 @@
       "version": "2.4.1"
     },
     "pg": {
-      "version": "4.4.6",
-      "resolved": "git://github.com/Shyp/node-postgres.git#1d5a07f75b081e8e14d40e88b62fb63202b86ecf",
+      "version": "4.3.0",
       "dependencies": {
         "buffer-writer": {
-          "version": "1.0.1"
+          "version": "1.0.0"
         },
         "generic-pool": {
-          "version": "2.4.0",
-          "resolved": "git://github.com/Shyp/node-pool.git#cd6d41ff7a2e6fa2a8d873274a08e2067241dd92"
+          "version": "2.1.1"
         },
         "packet-reader": {
           "version": "0.2.0"
