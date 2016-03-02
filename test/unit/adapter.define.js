@@ -65,7 +65,7 @@ describe('adapter', function() {
           support.Client(function(err, client, close) {
             var query = "SELECT attnotnull FROM pg_attribute WHERE " +
               "attrelid = 'test_define'::regclass AND attname = 'name'";
-            
+
             client.query(query, function(err, result) {
               result.rows[0].attnotnull.should.eql(true);
               close();
@@ -96,8 +96,12 @@ describe('adapter', function() {
       it('should escape reserved words', function(done) {
 
         adapter.define('test', 'user', definition, function(err) {
+          if (err) {
+            done(err);
+            return;
+          }
           adapter.describe('test', 'user', function(err, result) {
-            Object.keys(result).length.should.eql(8);
+            Object.keys(result).length.should.eql(8, JSON.stringify(result) + "\n" + JSON.stringify(err));
             done();
           });
         });
