@@ -3,7 +3,9 @@
 MOCHA_OPTS= --check-leaks
 REPORTER = dot
 
-test: test-unit test-integration
+test:
+	node --version
+	test-unit test-integration
 
 test-unit:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
@@ -29,8 +31,15 @@ shrinkwrap:
 	npm shrinkwrap
 	clingwrap npmbegone
 
-clean: 
+clean:
 	rm -rf node_modules
 
 install:
+	npm --version
 	npm install
+
+circle-install:
+	curl --remote-name https://raw.githubusercontent.com/Shyp/set-node-npm/master/set-node-npm
+	chmod +x set-node-npm
+	./set-node-npm
+
