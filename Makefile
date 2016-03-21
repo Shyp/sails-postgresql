@@ -5,7 +5,8 @@ REPORTER = dot
 
 test:
 	node --version
-	test-unit test-integration
+	test-unit
+	test-integration
 
 test-unit:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
