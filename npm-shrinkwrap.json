@@ -73,8 +73,8 @@
       "version": "0.10.1"
     },
     "waterline-sequel": {
-      "version": "0.1.1",
-      "resolved": "git://github.com/Shyp/waterline-sequel.git#d995c1b648f670c2728dfba5c37336d4bf26cb4a"
+      "version": "1.2.0",
+      "resolved": "git+https://github.com/Shyp/waterline-sequel.git#704020a5644e6470864a0b7ed666daa7beac660e"
     },
     "pg-native": {
       "version": "1.10.0",
