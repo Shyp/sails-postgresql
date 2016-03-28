@@ -36,7 +36,7 @@
     "mocha": "2",
     "npm": "2",
     "should": "8",
-    "waterline-adapter-tests": "git+https://github.com/Shyp/waterline-adapter-tests.git#v1.2.0"
+    "waterline-adapter-tests": "git+https://github.com/Shyp/waterline-adapter-tests.git#v1.9.0"
   },
   "scripts": {
     "test": "make test"
