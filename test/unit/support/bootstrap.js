@@ -2,7 +2,7 @@
  * Support functions for helping with Postgres tests
  */
 
-var pg = require('pg').native,
+var pg = require('pg'),
     _ = require('lodash'),
     adapter = require('../../../lib/adapter');
 

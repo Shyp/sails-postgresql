@@ -75,42 +75,6 @@
     "waterline-sequel": {
       "version": "1.2.0",
       "resolved": "git+https://github.com/Shyp/waterline-sequel.git#704020a5644e6470864a0b7ed666daa7beac660e"
-    },
-    "pg-native": {
-      "version": "1.10.0",
-      "dependencies": {
-        "libpq": {
-          "version": "1.8.1",
-          "dependencies": {
-            "nan": {
-              "version": "2.2.0"
-            },
-            "bindings": {
-              "version": "1.2.1"
-            }
-          }
-        },
-        "pg-types": {
-          "version": "1.6.0"
-        },
-        "readable-stream": {
-          "version": "1.0.31",
-          "dependencies": {
-            "core-util-is": {
-              "version": "1.0.2"
-            },
-            "isarray": {
-              "version": "0.0.1"
-            },
-            "string_decoder": {
-              "version": "0.10.31"
-            },
-            "inherits": {
-              "version": "2.0.1"
-            }
-          }
-        }
-      }
     }
   }
 }
