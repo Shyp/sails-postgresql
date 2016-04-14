@@ -1,18 +1,18 @@
 .PHONY: clean install test test-integration test-unit shrinkwrap
 
-MOCHA_OPTS= --check-leaks
+MOCHA_OPTS= --check-leaks --globals DBRecordsInserted
 REPORTER = dot
 
 test: test-unit test-integration
 
 test-unit:
-	@NODE_ENV=test ./node_modules/.bin/mocha \
+	@NODE_ENV=test TZ=GMT ./node_modules/.bin/mocha \
 		--reporter $(REPORTER) \
 		$(MOCHA_OPTS) \
 		test/unit/**
 
 test-integration:
-	@NODE_ENV=test node test/integration/runner.js
+	@NODE_ENV=test TZ=GMT node test/integration/runner.js
 
 test-load:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
@@ -40,4 +40,3 @@ circle-install:
 	curl --remote-name https://raw.githubusercontent.com/Shyp/set-node-npm/master/set-node-npm
 	chmod +x set-node-npm
 	./set-node-npm
-
