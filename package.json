@@ -27,7 +27,7 @@
     "pg": "git+https://github.com/Shyp/node-postgres.git#v4.6.0",
     "waterline-cursor": "0.0.5",
     "waterline-errors": "0.10.1",
-    "waterline-sequel": "git+https://github.com/Shyp/waterline-sequel.git#v1.2.1"
+    "waterline-sequel": "git+https://github.com/Shyp/waterline-sequel.git#v1.2.2"
   },
   "devDependencies": {
     "captains-log": "0.11.11",
