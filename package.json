@@ -24,7 +24,7 @@
   "dependencies": {
     "async": "0.9.0",
     "lodash": "2.4.1",
-    "pg": "git+https://github.com/Shyp/node-postgres.git#v4.6.0",
+    "pg": "git+https://github.com/Shyp/node-postgres.git#upstream-security-fix-take-2",
     "waterline-cursor": "0.0.5",
     "waterline-errors": "0.10.1",
     "waterline-sequel": "git+https://github.com/Shyp/waterline-sequel.git#v1.2.2"
